@@ -1,6 +1,6 @@
 ---
 layout: post
-title: More Pages
+title: More Stuff
 author: ExchangeRate-API
 date: 2016-08-07
 ---

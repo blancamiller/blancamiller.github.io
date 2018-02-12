@@ -6,24 +6,21 @@
 
 url: "http://blancamiller.github.io"
 
-title:		RLStevenson
-description:	'A Bootstrap based clone of the Hyde theme by mdo.'
-freetext:	'Released under an MIT license - feel free to make pull requests.'
+title:		Blanca Miller
+description:	"Hola! I am a graduate student of computer science at the Univeristy of Nevada, Reno. My work and interests are in robotics and the application of machine learning to control them in the wild. I'm also interested in the question of how these systems communicate their decision making process to people."
+freetext:	"You can email me using my first and last name at nevada dot unr dot edu."
+
 baseurl:	'/'
 paginate:	3
 version:	0.1.0
 colorscheme:	scheme-gulfracing
 
-ga:		'UA-123-456'
-piwikSiteID:	''
-piwikURL:	''
-
 author:
- url:		https://www.exchangerate-api.com
- name:		'ExchangeRate-API'
+ url:		https://blancamiller.github.io
+ name:		'Blanca Miller'
 
 github:
- repo:		https://github.com/ExchangeRate-API/rlstevenson-jekyll-theme
+ repo:		https://github.com/blancamiller.github.io
 
 gems:		[jekyll-paginate]
 

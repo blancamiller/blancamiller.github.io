@@ -9,3 +9,6 @@
 
 - text: Hyde
   url: https://github.com/poole/hyde
+
+- text: Test
+  url: test.html

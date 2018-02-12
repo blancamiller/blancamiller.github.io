@@ -9,13 +9,15 @@ layout: default
 		<div class="post">
 
 			<div class="post-heading">
-				<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-				<span>{{ post.date | date_to_string }} by {{ post.author }}</span>
+			  <h1><a href="{{ post.url |  replace: '//', '/' }}">{{post.title}}</a></h1>
+			  <!-- prepend: site.baseurl | -->
+			      <span>{{ post.date | date_to_string }} by {{ post.author }}</span>
 			</div>
 
 			{{ post.excerpt }}
 
-			<p>&#187; <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">View Post</a></p>
+			<p>&#187; <a href="{{post.url | prepend: site.baseurl | replace: '//','/'}}" class="button button-primary">View Page</a></p>
+
 
 		</div>
 	{% endfor %}
@@ -34,3 +36,6 @@ layout: default
 		<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn btn-default">Next Page</a>
 	{% endif %}
 </div>
+
+<!-- <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1> -->
+<!-- <p>&#187; <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">View Post</a></p> -->
