@@ -1,7 +1,6 @@
 ---
 layout: default
 title: The Robot I Work On
-author: ExchangeRate-API
 date: 2016-09-07
 ---
 

@@ -157,3 +157,9 @@ Bug reports and pull requests are welcomed.
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+
+# Structure
+
+Sidebar Content: _config.yml
+Page Content: _posts/

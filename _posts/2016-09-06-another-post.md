@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Another Post Example
-author: ExchangeRate-API
 date: 2016-09-06
 ---
 

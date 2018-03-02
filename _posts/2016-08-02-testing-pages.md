@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing Pages
-author: ExchangeRate-API
+author: Mary Poppins
 date: 2016-08-02
 ---
 
