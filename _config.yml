@@ -1,51 +1,31 @@
-#------------------------------------------------------------------------------
-# General
-#------------------------------------------------------------------------------
-name: "Minimal-Block"
-description: "Minimalistic, friendly, responsive."
-language: "en"
-
-url: http://localhost:4000
-baseurl: ''
-
-#------------------------------------------------------------------------------
-# Markdown processor and code highlighting
-#------------------------------------------------------------------------------
-markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-highlighter: rouge
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-#------------------------------------------------------------------------------
-# Pagination and friendly URLs
-#------------------------------------------------------------------------------
+title: "Blog Title"
+author: "Blog Author"
+description: "Really cool blog about ... something"
+more: "read more »"
+url: "https://niklasbuschmann.github.io/"
+baseurl: "/contrast"
 paginate: 2
-paginate_path: /page-:num
-permalink: /:title
+permalink: pretty
+excerpt_separator: "\n\n\n" # two blank lines
 
-#------------------------------------------------------------------------------
-# Social sharing, comments and RSS.
-#------------------------------------------------------------------------------
-disqus-id: yourusername
+style:
+  minimalist: false
+  dark: false
 
-enable-share: true
-twitter: yourusername
-github: yourusername
-google: +yourusername
+navigation:
+  - index.html
+  - archive.html
+  - about.md
 
-rss-feed-limit: 10
-rss-show-full: false
+comments:
+  disqus: "disqus-contrast"
+#  isso: "comments.mysite.org"
 
-#------------------------------------------------------------------------------
-# Configuration, plugins, gems, etc..
-#------------------------------------------------------------------------------
-source: .
-destination: ./_site
-gems: ['jekyll-paginate']
+links: # see http://fontawesome.io/icons/#brand for all possible icons
+  - twitter: "https://twitter.com/twitter/"
+  - github: "https://github.com/niklasbuschmann/contrast"
+  - envelope: "mailto:niklas.buschmann@posteo.de"
 
-sass:
-    style: :compressed
-    sass_dir: assets/css/
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+sass: {style: expanded}
+plugins: [jekyll-feed, jekyll-paginate]
