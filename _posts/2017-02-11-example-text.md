@@ -1,28 +1,19 @@
 ---
-title:  "Example Text"
-date:   2017-02-11 01:01:01
+title:  "Research Projects"
+#date:   2017-02-11 01:01:01
 categories: text
 ---
 
-Lorem **ipsum dolor** sit amet, consectetur adipiscing elit, `sed do eiusmod tempor` incididunt ut *labore* et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ***exercitation*** ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute *irure dolor* in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+### **Reinforcement Learning for an Autonomous Ground Vehicle Controller**
 
-The term was coined in 1964 by two [Australian](https://en.wikipedia.org/wiki/Australia) [CSIRO](https://en.wikipedia.org/wiki/CSIRO) researchers, Isabel Joy Bear and Richard G. Thomas, for an article in the journal [Nature](https://en.wikipedia.org/wiki/Nature_(journal)). In the article, the authors describe how the smell derives from an oil exuded by certain [plants](https://en.wikipedia.org/wiki/Plants) during dry periods, whereupon it is [absorbed](https://en.wikipedia.org/wiki/Absorption_(chemistry)) by [clay](https://en.wikipedia.org/wiki/Clay)-based [soils](https://en.wikipedia.org/wiki/Soil) and [rocks](https://en.wikipedia.org/wiki/Rock_(geology)).
+I am developing a controller using tried and true control theory, while also taking advantage of current deep learning methodology. My hope is to produce a high-accuracy optimal controller for a [self-driving Lincoln MKZ](https://youtu.be/SEw0hXr5uoE), as reliable and accurate systems remain an open-problem for autonomous systems. This is part of a larger project under my university's [Intelligent Mobility](https://www.unr.edu/ncar/about-us/im) project. 
+
+### **Multi-GPU Controller using** [**NVIDIA's PX2**](https://www.nvidia.com/en-us/self-driving-cars/drive-px/)
+
+Due to autonomous vehicle hardware being very new and not well understood in practice, I am determining software structure efficiency to optimally use on-board computing resources. Vehicle's are equipped with lots of sensors, e.g. multiple cameras and lidar. This requires a balance of computational resources so that no one aspect of the system hoards the computational power and potentially causes a bottle-neck that dilutes accuracy and safety.   
 
 
-Some scientists believe that humans appreciate the rain scent because ancestors may have relied on rainy weather for survival.
+### **Causal Inference for Machine Learning Decision-making Logic**
 
-### Lists
+This is a newly evolving interest. Existing machine learning methods are unable to communicate decision-making logic. For my dissertation, I am interested in exploring how causal inference might help equip learning systems with intelligent analysis. This idea stems from a recently published [Judea Pearl (2018) paper](https://arxiv.org/abs/1801.04016).
 
-#### Unordered
-
- * lorem
- * ipsum
- * dolor
- * sit amet
-
-#### Ordered
-
-1. lorem
-2. ipsum
-3. dolor
-4. sit amet
