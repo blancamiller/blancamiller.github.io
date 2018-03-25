@@ -1,20 +1,19 @@
 ---
-title: Reading & Listening
+title: Books & Podcasts
 subtitle:
 layout: "page"
 icon: fa-book
 order: 3
 ---
 
-**I love books! Here are some I'm reading. Some for research, some just because.**
-
+**I love books! Here are some I'm reading for research, some just because.**
 1. John Brockman: *The Idea is Brilliant*
 2. Edited by Luciano Floridi: *The Routledge Handbook of Philosophy of Information*
-3. Lars Grüne & Jürgen Pannek : *Nonlinear model predictive control: Theory and algorithms.*
+3. Judea Pearl: *Causal Inference in Statistics: A Primer*
 4. Trevor Hastie, Robert Tibshirani, & Jerome Friedman: *The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition*
-5. Daphne Koller & Nir Friedman: *Probabilistic Graphical Models: Principles and Techniques*
-6. Stuart Firestein: *Ignorance: How it Drives Science*
-7. Judea Pearl: *Causal Inference in Statistics: A Primer*
+5. Lars Grüne & Jürgen Pannek : *Nonlinear model predictive control: Theory and algorithms.*
+6. Daphne Koller & Nir Friedman: *Probabilistic Graphical Models: Principles and Techniques*
+7. Stuart Firestein: *Ignorance: How it Drives Science*
 8. Brian Christian & Tom Griffiths: *Algorithms to Live By: The Computer Science of Human Decisions*
 
 
