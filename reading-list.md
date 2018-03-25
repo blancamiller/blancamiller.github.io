@@ -18,6 +18,6 @@ order: 3
 
 
 **I'm also a podcast junkie! Here are a few of my favorites.**
-1. TWiML&AI: This Week in Machine Learning & Artificial Intelligence
-2. The Architect Show
-3. The Infinite Monkey Cage
+1. [TWiML&AI: This Week in Machine Learning & Artificial Intelligence](https://twimlai.com/)
+2. [The Architect Show](http://thearchitechshow.com/)
+3. [The Infinite Monkey Cage](http://www.infinitemonkeycage.com/)
