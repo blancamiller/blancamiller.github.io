@@ -12,4 +12,4 @@ order: 3
 2. John Brockman: *The Idea is Brilliant*
 3. Lars Grüne & Jürgen Pannek : *Nonlinear model predictive control: Theory and algorithms.*
 4. Trevor Hastie, Robert Tibshirani, & Jerome Friedman: *The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition*
-5. Daphne Koller & Nir Friedman: *Probabilistic Graphical Models: Principles and Techniques*s
+5. Daphne Koller & Nir Friedman: *Probabilistic Graphical Models: Principles and Techniques*
